@@ -74,14 +74,14 @@ def main():
     st.markdown("---")
 
     # 기본 설명
-    with st.expander("음성비서 프로그램에 관하여", expanded=True):
+    with st.expander("성현이의 음성비서 프로그램에 관하여", expanded=True):
         st.write(
         """     
+        - 3팀 이성현 제작
         - 음성비서 프로그램의 UI는 스트림릿을 활용했습니다.
         - STT(Speech-To-Text)는 OpenAI의 Whisper AI를 활용했습니다. 
         - 답변은 OpenAI의 GPT 모델을 활용했습니다. 
         - TTS(Text-To-Speech)는 구글의 Google Translate TTS를 활용했습니다.
-        - 3팀 이성현 제작
         """
         )
 
